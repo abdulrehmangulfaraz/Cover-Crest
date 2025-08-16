@@ -17,26 +17,26 @@
 }
 
 body.light-theme {
-    --background-gradient: linear-gradient(180deg, #e0eafc 0%, #cfdef3 100%);
-    --text-color: #333333;
-    --text-secondary-color: #555555;
-    --accent-color: #4a90e2;
-    --toolbox-bg-color: rgba(255, 255, 255, 0.7);
+    --background-gradient: linear-gradient(180deg, #f0f2f5 0%, #e6e9f0 100%);
+    --text-color: #2c3e50;
+    --text-secondary-color: #7f8c8d;
+    --accent-color: #3498db;
+    --toolbox-bg-color: rgba(255, 255, 255, 0.8);
     --toolbox-border-color: rgba(0, 0, 0, 0.1);
-    --control-bg-color: rgba(255, 255, 255, 0.8);
+    --control-bg-color: rgba(255, 255, 255, 0.9);
     --control-hover-bg-color: rgba(255, 255, 255, 1);
-    --github-preview-bg-color: #f0f2f5;
+    --github-preview-bg-color: #ffffff;
 }
 
 body.dark-theme {
-    --background-gradient: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
-    --text-color: #f5f5f5;
-    --text-secondary-color: #bdc3c7;
-    --accent-color: #9b59b6;
-    --toolbox-bg-color: rgba(44, 62, 80, 0.7);
-    --toolbox-border-color: rgba(255, 255, 255, 0.1);
-    --control-bg-color: rgba(44, 62, 80, 0.8);
-    --control-hover-bg-color: rgba(52, 73, 94, 1);
+    --background-gradient: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+    --text-color: #e0e0e0;
+    --text-secondary-color: #b3b3b3;
+    --accent-color: #00aaff;
+    --toolbox-bg-color: rgba(26, 26, 26, 0.7);
+    --toolbox-border-color: rgba(0, 170, 255, 0.2);
+    --control-bg-color: rgba(41, 41, 41, 0.8);
+    --control-hover-bg-color: rgba(56, 56, 56, 1);
     --github-preview-bg-color: #0d1117;
 }
 
