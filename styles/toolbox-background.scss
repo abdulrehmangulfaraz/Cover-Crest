@@ -93,7 +93,7 @@
             }
 
             &.selected {
-                border: solid white 2px;
+                border: solid var(--accent-color) 2px;
             }
         }
     }

@@ -7,12 +7,11 @@ body {
     display: flex;
     color: var(--text-color);
     font-family: var(--main-font-familiy);
-    background: #446BAF;
-    background: linear-gradient(180deg, #675494 0%, #605fa1 32.6%, #4e6db3 68.54%, #4078c0 100%);
+    background: var(--background-gradient);
 }
 
 .left-container {
-    width: 350px; /* Giving it a fixed width */
+    width: 350px;
     min-width: 350px;
     min-height: 100vh;
     padding: 2rem;
@@ -205,6 +204,38 @@ button {
         max-width: 300px;
     }
 
+    .theme-switcher {
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+
+        .theme-btn {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid var(--toolbox-border-color);
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &.active {
+                border-color: var(--accent-color);
+                transform: scale(1.1);
+            }
+
+            &[data-theme="colorful"] {
+                background: linear-gradient(45deg, #675494, #4078c0);
+            }
+
+            &[data-theme="light"] {
+                background: #f0f2f5;
+            }
+
+            &[data-theme="dark"] {
+                background: #2c3e50;
+            }
+        }
+    }
+
     .github-button-container {
         margin-top: 20px;
     }
@@ -216,7 +247,7 @@ button {
     align-items: center;
     flex-direction: column;
     justify-content: end;
-    margin-top: auto; /* Pushes footer to the bottom */
+    margin-top: auto;
 
     .links {
         display: flex;
@@ -246,7 +277,7 @@ button {
             display: flex;
             justify-content: center;
             align-items: center;
-
+    
             img {
                 width: 30px;
                 transition: all ease 500ms;

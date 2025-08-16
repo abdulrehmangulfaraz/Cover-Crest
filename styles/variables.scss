@@ -1,20 +1,45 @@
 :root {
     --button-border-radius: 12px;
     --input-border-radius: 12px;
-    --text-color: white;
     --paddings: 3rem;
-    --github-dark-mode-color: #0d1117;
-    --github-light-mode-color: #f0f2f5;
     --main-font-familiy: "Red Hat Display", Arial, Helvetica, sans-serif;
 
-    /* New Additions for Glassmorphism theme */
+    /* Colorful Theme (Default) */
+    --background-gradient: linear-gradient(180deg, #675494 0%, #605fa1 32.6%, #4e6db3 68.54%, #4078c0 100%);
+    --text-color: white;
+    --text-secondary-color: #cccccc;
+    --accent-color: #8a54c9;
     --toolbox-bg-color: rgba(255, 255, 255, 0.1);
     --toolbox-border-color: rgba(255, 255, 255, 0.2);
     --control-bg-color: rgba(255, 255, 255, 0.15);
     --control-hover-bg-color: rgba(255, 255, 255, 0.25);
-    --text-secondary-color: #cccccc;
-    --accent-color: #8a54c9;
+    --github-preview-bg-color: #0d1117;
 }
+
+body.light-theme {
+    --background-gradient: linear-gradient(180deg, #e0eafc 0%, #cfdef3 100%);
+    --text-color: #333333;
+    --text-secondary-color: #555555;
+    --accent-color: #4a90e2;
+    --toolbox-bg-color: rgba(255, 255, 255, 0.7);
+    --toolbox-border-color: rgba(0, 0, 0, 0.1);
+    --control-bg-color: rgba(255, 255, 255, 0.8);
+    --control-hover-bg-color: rgba(255, 255, 255, 1);
+    --github-preview-bg-color: #f0f2f5;
+}
+
+body.dark-theme {
+    --background-gradient: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
+    --text-color: #f5f5f5;
+    --text-secondary-color: #bdc3c7;
+    --accent-color: #9b59b6;
+    --toolbox-bg-color: rgba(44, 62, 80, 0.7);
+    --toolbox-border-color: rgba(255, 255, 255, 0.1);
+    --control-bg-color: rgba(44, 62, 80, 0.8);
+    --control-hover-bg-color: rgba(52, 73, 94, 1);
+    --github-preview-bg-color: #0d1117;
+}
+
 
 @media (max-width: 768px) {
     :root {
