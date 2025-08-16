@@ -1,35 +1,55 @@
 .how-to-section {
-    margin-top: 2rem;
-    margin-bottom: 25px;
-    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: left; /* Changed for better readability */
     flex-grow: 1;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 
     .title {
         font-family: "Kalam", sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    ol {
+        padding-left: 20px; /* Standard ol padding */
     }
 
     li {
-        list-style-position: inside;
-        margin-top: 10px;
+        list-style-position: outside; /* Standard list style */
+        margin-top: 1.5rem;
+        line-height: 1.6;
 
         .demo {
             margin-top: 10px;
+            border-radius: 10px;
+            border: 1px solid var(--toolbox-border-color);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            max-width: 100%;
+            height: auto;
         }
 
         a {
             text-decoration: underline;
+            font-weight: bold;
         }
 
         .code {
-            margin: auto;
-            margin-top: 5px;
-            width: fit-content;
-            padding: 5px 10px;
+            display: block; /* Make it a block for better spacing */
+            margin-top: 10px;
+            width: 100%;
+            padding: 15px;
             background-color: #22272e;
-            border-radius: 5px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
 
             code {
                 font-size: 0.9rem;
+                font-family: 'Courier New', Courier, monospace;
             }
         }
     }
