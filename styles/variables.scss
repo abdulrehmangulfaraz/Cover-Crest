@@ -1,11 +1,19 @@
 :root {
-    --button-border-radius: 7px;
-    --input-border-radius: 7px;
+    --button-border-radius: 12px;
+    --input-border-radius: 12px;
     --text-color: white;
     --paddings: 3rem;
     --github-dark-mode-color: #0d1117;
-    --github-light-mode-color: white;
-    --main-font-familiy: "Red Hat Display", Arial, Helvetica, sans-serif;   
+    --github-light-mode-color: #f0f2f5;
+    --main-font-familiy: "Red Hat Display", Arial, Helvetica, sans-serif;
+
+    /* New Additions for Glassmorphism theme */
+    --toolbox-bg-color: rgba(255, 255, 255, 0.1);
+    --toolbox-border-color: rgba(255, 255, 255, 0.2);
+    --control-bg-color: rgba(255, 255, 255, 0.15);
+    --control-hover-bg-color: rgba(255, 255, 255, 0.25);
+    --text-secondary-color: #cccccc;
+    --accent-color: #8a54c9;
 }
 
 @media (max-width: 768px) {
