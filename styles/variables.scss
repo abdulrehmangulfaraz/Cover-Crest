@@ -9,10 +9,10 @@
     --text-color: white;
     --text-secondary-color: #cccccc;
     --accent-color: #8a54c9;
-    --toolbox-bg-color: rgba(255, 255, 255, 0.1);
+    --toolbox-bg-color: rgba(0, 0, 0, 0.15);
     --toolbox-border-color: rgba(255, 255, 255, 0.2);
-    --control-bg-color: rgba(255, 255, 255, 0.15);
-    --control-hover-bg-color: rgba(255, 255, 255, 0.25);
+    --control-bg-color: rgba(0, 0, 0, 0.2);
+    --control-hover-bg-color: rgba(0, 0, 0, 0.3);
     --github-preview-bg-color: #0d1117;
 }
 
@@ -39,7 +39,6 @@ body.dark-theme {
     --control-hover-bg-color: rgba(56, 56, 56, 1);
     --github-preview-bg-color: #0d1117;
 }
-
 
 @media (max-width: 768px) {
     :root {

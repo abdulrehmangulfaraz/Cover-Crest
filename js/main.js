@@ -27,16 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
             button.addEventListener('click', () => {
                 const theme = button.getAttribute('data-theme');
                 
-                // --- THIS IS THE FIX ---
-                // We now remove only the theme-related classes, preserving essential classes like "main-container"
                 body.classList.remove('light-theme', 'dark-theme');
 
-                // Add the new theme class if it's not the default
                 if (theme !== 'colorful') {
                     body.classList.add(theme + '-theme');
                 }
 
-                // Update the active button
                 themeButtons.forEach(btn => btn.classList.remove('active'));
                 button.classList.add('active');
             });
