@@ -4,7 +4,7 @@
     text-align: left; /* Changed for better readability */
     flex-grow: 1;
     padding: 1.5rem;
-    background: rgba(0, 0, 0, 0.1);
+    background: var(--toolbox-bg-color);
     border-radius: 15px;
 
     .title {
@@ -42,9 +42,9 @@
             margin-top: 10px;
             width: 100%;
             padding: 15px;
-            background-color: #22272e;
+            background-color: var(--github-preview-bg-color);
             border-radius: 10px;
-            border: 1px solid rgba(255,255,255,0.1);
+            border: 1px solid var(--toolbox-border-color);
             text-align: center;
 
             code {
