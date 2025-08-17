@@ -21,6 +21,22 @@ body {
     background: var(--toolbox-bg-color);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
     z-index: 30;
+    transition: all 0.3s ease-in-out;
+}
+
+.left-container.collapsed {
+    margin-left: -350px;
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    color: var(--text-color);
 }
 
 .toolbox-container {
@@ -32,7 +48,13 @@ body {
     background-position: center;
     background-attachment: fixed;
     overflow: hidden;
+    transition: all 0.3s ease-in-out;
 }
+
+.left-container.collapsed + .toolbox-container {
+    width: 100%;
+}
+
 
 .scrollable {
     &::-webkit-scrollbar {
@@ -305,6 +327,12 @@ body.light-theme .footer .icons a img {
         min-width: 100%;
         background: inherit;
         padding-bottom: 2rem;
+        margin-left: -100%;
+        position: absolute;
+    }
+    
+    .left-container.collapsed {
+        margin-left: 0;
     }
 
     .toolbox-container {

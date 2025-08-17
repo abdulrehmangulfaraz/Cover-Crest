@@ -15,13 +15,22 @@ const {
     toolboxBackground,
 } = getMainElements();
 
-/* ************** Theme Switcher (Corrected) ************** */
+/* ************** Theme Switcher and Sidebar ************** */
 
 document.addEventListener('DOMContentLoaded', () => {
     const themeSwitcher = document.querySelector('.theme-switcher');
+    const body = document.body;
+    const sidebar = document.querySelector('.left-container');
+    const sidebarToggle = document.querySelector('.sidebar-toggle');
+
+    // Set dark theme as default
+    body.classList.add('dark-theme');
+    if (themeSwitcher) {
+        themeSwitcher.querySelector('.theme-btn[data-theme="dark"]').classList.add('active');
+    }
+
     if (themeSwitcher) {
         const themeButtons = themeSwitcher.querySelectorAll('.theme-btn');
-        const body = document.body;
 
         themeButtons.forEach(button => {
             button.addEventListener('click', () => {
@@ -38,7 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
+
+    if (sidebarToggle && sidebar) {
+        // Collapse sidebar on mobile by default
+        if (window.innerWidth <= 768) {
+            sidebar.classList.add('collapsed');
+        }
+
+        sidebarToggle.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+        });
+    }
 });
+
 
 /* ************** Options ************** */
 
