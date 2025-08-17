@@ -116,28 +116,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 });
 
-// Toogle Dark Mode button
-document.querySelector('.dark-mode-button')
-    .addEventListener('click', (e) => {
-        let resultBox = document.querySelector('.result-box');
-        const toogleDarkModeButton = document.querySelector('.dark-mode-button');
-        const toogleRandomizeButton = document.querySelector('.randomize-button');
-        const toogleDownloadButton = document.querySelector('.download-button');
-
-        const size = 20;
-
-        resultBox.classList.toggle('light-mode');
-        if (resultBox.className.includes('light')) {
-            toogleDarkModeButton.innerHTML = `<img src="./images/icons/light-dark-black.svg" width="${size}" />GH Light`
-            toogleRandomizeButton.innerHTML = `<img src="./images/icons/random-black.svg" width="${size}" />Random`
-            toogleDownloadButton.innerHTML = `<img src="./images/icons/download.svg" width="${size}" />Download`
-        } else {
-            toogleDarkModeButton.innerHTML = `<img src="./images/icons/light-dark.svg" width="${size}" />GH Dark`
-            toogleRandomizeButton.innerHTML = `<img src="./images/icons/random.svg" width="${size}" />Random`
-            toogleDownloadButton.innerHTML = `<img src="./images/icons/download.svg" width="${size}" />Download`
-        }
-    });
-
 /* ************** Randomize ************** */
 
 document.querySelector('.randomize-button')

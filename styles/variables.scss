@@ -14,6 +14,9 @@
     --control-bg-color: rgba(0, 0, 0, 0.2);
     --control-hover-bg-color: rgba(0, 0, 0, 0.3);
     --github-preview-bg-color: #0d1117;
+    --pattern-preview-bg-color: var(--control-bg-color);
+    --decoration-preview-bg-color: var(--control-bg-color);
+    --main-panel-bg-color: rgba(255, 255, 255, 0.05);
 }
 
 body.light-theme {
@@ -26,6 +29,9 @@ body.light-theme {
     --control-bg-color: rgba(255, 255, 255, 0.9);
     --control-hover-bg-color: rgba(255, 255, 255, 1);
     --github-preview-bg-color: #ffffff;
+    --pattern-preview-bg-color: rgba(0, 0, 0, 0.1);
+    --decoration-preview-bg-color: rgba(0, 0, 0, 0.1);
+    --main-panel-bg-color: rgba(0, 0, 0, 0.1);
 }
 
 body.dark-theme {
@@ -38,6 +44,8 @@ body.dark-theme {
     --control-bg-color: rgba(41, 41, 41, 0.8);
     --control-hover-bg-color: rgba(56, 56, 56, 1);
     --github-preview-bg-color: #0d1117;
+    --decoration-preview-bg-color: var(--control-hover-bg-color);
+    --main-panel-bg-color: var(--control-bg-color);
 }
 
 @media (max-width: 768px) {

@@ -99,6 +99,11 @@
     }
 }
 
+.light-theme .patterns-buttons button img {
+    filter: invert(1);
+}
+
+
 @media (max-width: 768px) {
     .toolbox-background {
         .border-inputs {
