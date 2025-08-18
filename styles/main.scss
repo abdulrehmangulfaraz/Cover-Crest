@@ -244,10 +244,6 @@ button {
                 transform: scale(1.1);
             }
 
-            &[data-theme="colorful"] {
-                background: linear-gradient(45deg, #675494, #4078c0);
-            }
-
             &[data-theme="light"] {
                 background: #f0f2f5;
             }
@@ -327,17 +323,21 @@ body.light-theme .footer .icons a img {
         min-width: 100%;
         background: inherit;
         padding-bottom: 2rem;
-        margin-left: -100%;
         position: absolute;
+        height: 100%;
     }
     
     .left-container.collapsed {
-        margin-left: 0;
+        margin-left: -100%;
     }
 
     .toolbox-container {
         width: 100%;
         height: auto;
         min-height: 100vh;
+    }
+    
+    .sidebar-toggle {
+        display: block;
     }
 }
