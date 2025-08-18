@@ -98,7 +98,6 @@ document.querySelector('.download-button')
 document.addEventListener("DOMContentLoaded", (event) => {
     const displayButton = document.querySelector('.display-button');
     const miniatureButton = document.querySelector('.miniature-button');
-    const testFontsTab = document.querySelector('.tablinks[data-name="test-fonts-section"]');
 
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
         const el = document.querySelector('#github-header-image');
