@@ -4,19 +4,17 @@
     --paddings: 3rem;
     --main-font-familiy: "Red Hat Display", Arial, Helvetica, sans-serif;
 
-    /* Colorful Theme (Default) */
-    --background-gradient: linear-gradient(180deg, #675494 0%, #605fa1 32.6%, #4e6db3 68.54%, #4078c0 100%);
-    --text-color: white;
-    --text-secondary-color: #cccccc;
-    --accent-color: #8a54c9;
-    --toolbox-bg-color: rgba(0, 0, 0, 0.15);
-    --toolbox-border-color: rgba(255, 255, 255, 0.2);
-    --control-bg-color: rgba(0, 0, 0, 0.2);
-    --control-hover-bg-color: rgba(0, 0, 0, 0.3);
+    --background-gradient: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+    --text-color: #e0e0e0;
+    --text-secondary-color: #b3b3b3;
+    --accent-color: #00aaff;
+    --toolbox-bg-color: rgba(26, 26, 26, 0.7);
+    --toolbox-border-color: rgba(0, 170, 255, 0.2);
+    --control-bg-color: rgba(41, 41, 41, 0.8);
+    --control-hover-bg-color: rgba(56, 56, 56, 1);
     --github-preview-bg-color: #0d1117;
-    --pattern-preview-bg-color: var(--control-bg-color);
-    --decoration-preview-bg-color: var(--control-bg-color);
-    --main-panel-bg-color: rgba(255, 255, 255, 0.05);
+    --decoration-preview-bg-color: var(--control-hover-bg-color);
+    --main-panel-bg-color: var(--control-bg-color);
 }
 
 body.light-theme {
@@ -32,20 +30,6 @@ body.light-theme {
     --pattern-preview-bg-color: rgba(0, 0, 0, 0.1);
     --decoration-preview-bg-color: rgba(0, 0, 0, 0.1);
     --main-panel-bg-color: rgba(0, 0, 0, 0.1);
-}
-
-body.dark-theme {
-    --background-gradient: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
-    --text-color: #e0e0e0;
-    --text-secondary-color: #b3b3b3;
-    --accent-color: #00aaff;
-    --toolbox-bg-color: rgba(26, 26, 26, 0.7);
-    --toolbox-border-color: rgba(0, 170, 255, 0.2);
-    --control-bg-color: rgba(41, 41, 41, 0.8);
-    --control-hover-bg-color: rgba(56, 56, 56, 1);
-    --github-preview-bg-color: #0d1117;
-    --decoration-preview-bg-color: var(--control-hover-bg-color);
-    --main-panel-bg-color: var(--control-bg-color);
 }
 
 @media (max-width: 768px) {

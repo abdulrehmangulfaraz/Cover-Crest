@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 body.classList.remove('light-theme', 'dark-theme');
 
-                if (theme !== 'colorful') {
+                if (theme) {
                     body.classList.add(theme + '-theme');
                 }
 
@@ -129,9 +129,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 container.appendChild(png);
                 document.querySelector('.toolbox-container .toolbox-tools').style.height = 'calc(100vh - 230px - 3rem - 35px - 1rem - 46px)'
             })
-        }
-        if (testFontsTab) {
-            // testFontsTab.style.display = "block"
         }
     }
 });
