@@ -1,5 +1,5 @@
 import { setFontValues } from './helpers/fonts';
-import { getRandomTheme, setTheme } from './helpers/helpers';
+import { getTheme, setTheme } from './helpers/helpers';
 import { snapdom } from '@zumer/snapdom';
 import { getMainElements } from './helpers/elements';
 
@@ -58,6 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             sidebar.classList.toggle('collapsed');
         });
     }
+
+    // Set the default theme to theme number 3 (index 2)
+    setTheme(getTheme(2));
 });
 
 
@@ -132,14 +135,3 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
     }
 });
-
-/* ************** Randomize ************** */
-
-document.querySelector('.randomize-button')
-    .addEventListener('click', (e) => {
-        const theme = getRandomTheme();
-        setTheme(theme);
-
-    });
-
-/* ************** ************** ************** */

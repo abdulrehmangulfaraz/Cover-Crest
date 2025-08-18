@@ -19,11 +19,6 @@ function getTheme(index) {
     return themes[index]
 }
 
-function getRandomTheme() {
-    let random = Math.floor(Math.random() * themes.length);
-    return themes[random];
-}
-
 function updateBanner({
     background,
     titleColor,
@@ -141,4 +136,4 @@ function logTheme(theme) {
     }
 }
 
-export { getAllThemes, getTheme, getRandomTheme, setTheme };
+export { getAllThemes, getTheme, setTheme };
