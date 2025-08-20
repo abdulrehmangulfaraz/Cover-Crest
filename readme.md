@@ -2,7 +2,7 @@
 
 *A spark of you, woven into code and canvas.* ✨
 
-![Cover-Crest Screenshots](./screenshots/Combined%20sscreenshort.png)
+![Cover-Crest Screenshots](./screenshots/ss.png)
 
 ---
 
