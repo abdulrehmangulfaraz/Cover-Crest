@@ -15,8 +15,6 @@ It gives you complete control — themes, fonts, colors, patterns, decorations, 
 
 > *"Because every digital space deserves a touch of its creator."* 🌿
 
-* **Author:** Abdulrehman Gulfaraz
-* **License:** MIT
 * **Live Demo:** [Visit Cover-Crest on Netlify 🚀](https://cover-crest.netlify.app/)
 
 ---
