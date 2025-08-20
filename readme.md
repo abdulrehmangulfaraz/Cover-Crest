@@ -68,8 +68,8 @@ The editor is divided into **4 clear tabs** for creativity:
 
 ## 🌍 Deployment
 
-* **Hosted on:** Netlify
-* **Live link:** [https://cover-crest.netlify.app/](https://cover-crest.netlify.app/)
+* **Hosted on:** vercel
+* **Live link:** [https://cover-crest.vercel.app/](https://cover-crest.vercel.app/)
 
 👉 *No setup required if you just want to try it out!*
 
@@ -79,7 +79,7 @@ The editor is divided into **4 clear tabs** for creativity:
 
 ### Option 1: Use it Online 🌐
 
-* Simply visit the live site: [Cover-Crest on Netlify](https://cover-crest.netlify.app/)
+* Simply visit the live site: [Cover-Crest on vercel](https://cover-crest.vercel.app/)
 * Create your header → Download → Add to your GitHub profile README.
 
 ### Option 2: Run Locally 💻
