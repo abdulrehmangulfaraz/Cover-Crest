@@ -162,14 +162,7 @@ cover-crest/
 
 ## 📖 License
 
-This project is licensed under the **MIT License**.
-
-You’re free to:
-✔️ Use it for personal or commercial projects
-✔️ Modify and distribute
-✔️ Share and improve
-
-But provided *as-is*, **without warranty**.
+This project is licensed under the **[MIT License](LICENSE)**.
 
 ---
 
